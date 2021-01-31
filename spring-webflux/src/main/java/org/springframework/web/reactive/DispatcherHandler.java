@@ -65,6 +65,7 @@ import org.springframework.web.server.adapter.WebHttpHandlerBuilder;
  * @since 5.0
  * @see WebHttpHandlerBuilder#applicationContext(ApplicationContext)
  */
+// TODO: 2021/1/31 webflux的程序入口
 public class DispatcherHandler implements WebHandler, ApplicationContextAware {
 
 	@Nullable
